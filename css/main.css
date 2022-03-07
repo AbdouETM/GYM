@@ -17,24 +17,7 @@
 
 /* End Global Rules */
 
-/* Small */
-@media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
-  }
-  /* Medium */
-  @media (min-width: 992px) {
-    .container {
-      width: 970px;
-    }
-  }
-  /* Large */
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px;
-    }
-  }
+
 /* Start header */
 header{
   background-color: #FD3C3D;
@@ -70,10 +53,10 @@ header nav .closed{
   width: 30px;
   height: 30px;
   position: absolute;
-  top: -48px;
+  top: -50px;
   right: 24px;
   color: white;
-  font-size: 25px;
+  font-size: 27px;
   display: none;
   cursor: pointer;
 }
@@ -170,7 +153,7 @@ header .icon i:hover{
   
   header nav ul{
     display: block;
-    height: 30vh;
+    height: 35vh;
     position: absolute;
     width: 100%;
     left: 0px;
@@ -238,7 +221,7 @@ header .icon i:hover{
 .landing{
   background-image: url("../images/bk.jpg");
   background-size: cover;
-  background-position: 90%;
+  background-position: 85%;
   height: calc(100vh - 55px);
   display: flex;
   justify-content: center;
@@ -350,7 +333,7 @@ header .icon i:hover{
   position: absolute;
   bottom: -20px;
   left: 50%;
-  width: 10%;
+  width: 160px;
   height: 6px;
   background-color: #FD3C3D;
   transform: translateX(-50%);
@@ -414,6 +397,7 @@ header .icon i:hover{
   background-color: white;
   
 }
+
 /* End program */
 
 

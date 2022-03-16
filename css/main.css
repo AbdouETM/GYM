@@ -159,7 +159,7 @@ header .icon{
 }
 header .icon i{
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 5px;
   color: var(--main-color);
   width: 30px;
   height: 30px;
@@ -397,7 +397,6 @@ header .icon i:hover{
   background-position: center;
 }
 .box .btn{
-  padding: 15px 25px;
   background-color: transparent;
   border: 2px solid var(--main-color);
 }

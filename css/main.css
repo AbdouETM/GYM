@@ -687,11 +687,7 @@ header .icon i:hover{
 
 .fitness .box-content .txt .btn{
   margin-top: 55px;
-  padding: 18px 35px;
-  display: block;
-
 }
-
 
 @media (max-width:992px){
   .fitness .box-content{
